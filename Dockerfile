@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM tutum-ubuntu
 
 MAINTAINER Cristian Paul <paul@kristianpaul.org>
 
