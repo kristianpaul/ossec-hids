@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM tutum/ubuntu
 
 MAINTAINER Cristian Paul <paul@kristianpaul.org>
 
