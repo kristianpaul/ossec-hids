@@ -12,6 +12,8 @@ RUN cd ossec-hids-preloaded-server/ && bash ./install.sh
 
 RUN apt-get purge -y --auto-remove build-essential zip wget
 
+VOLUME /srv/ossec/var/
+
 CMD ["/etc/init.d/ossec start"]
 
 EXPOSE 1514
