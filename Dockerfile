@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 
 MAINTAINER Cristian Paul <paul@kristianpaul.org>
 
